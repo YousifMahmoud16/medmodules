@@ -86,18 +86,6 @@ const MODULES = [
           },
         ],
 
-        audio: [
-          // Add audio files here later
-          // {
-          //   title: {
-          //     en: "Introduction to anatomy",
-          //     ar: "مقدمة في التشريح",
-          //   },
-          //   url: "assets/audio/nhb/anatomy/introduction.mp3",
-          //   type: "audio",
-          // },
-        ],
-
         books: [
           {
             title: {
@@ -131,6 +119,18 @@ const MODULES = [
 
             type: "pdf",
           },
+        ],
+
+        audio: [
+          // Add audio files here later
+          // {
+          //   title: {
+          //     en: "Introduction to anatomy",
+          //     ar: "مقدمة في التشريح",
+          //   },
+          //   url: "assets/audio/nhb/anatomy/introduction.mp3",
+          //   type: "audio",
+          // },
         ],
       },
 
