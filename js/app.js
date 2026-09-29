@@ -137,7 +137,6 @@ const MODULES = [
       {
         id: "physiology",
 
-        // Stays in English
         name: "Physiology",
 
         videos: [],
@@ -149,13 +148,135 @@ const MODULES = [
       {
         id: "histology",
 
-        // Stays in English
         name: "Histology",
 
         videos: [],
-        youtube: [],
+        youtube: [
+          {
+            title: {
+              en: "Structure of cell membrane 1 - Dr Iman Nabil",
+              ar: "Structure of cell membrane 1 - Dr Iman Nabil",
+            },
+
+            url: "https://www.youtube.com/watch?v=lO5lgPCKFNI",
+
+            type: "youtube",
+          },
+          {
+            title: {
+              en: "Structure of cell membrane 2 - Dr Iman Nabil",
+              ar: "Structure of cell membrane 2 - Dr Iman Nabil",
+            },
+
+            url: "https://www.youtube.com/watch?v=VFF4mGBFLbI",
+
+            type: "youtube",
+          },
+          {
+            title: {
+              en: "Vesicular transport across the cell membrane - Dr Iman Nabil",
+              ar: "Vesicular transport across the cell membrane - Dr Iman Nabil",
+            },
+
+            url: "https://www.youtube.com/watch?v=pDdc50ROeVw",
+
+            type: "youtube",
+          },
+          {
+            title: {
+              en: "Cell organelles Part 1 - Dr Iman Nabil",
+              ar: "Cell organelles Part 1 - Dr Iman Nabil",
+            },
+
+            url: "https://www.youtube.com/watch?v=oD0q2Scir-M",
+
+            type: "youtube",
+          },
+          {
+            title: {
+              en: "Cell organelles Part 2 - Dr Iman Nabil",
+              ar: "Cell organelles Part 2 - Dr Iman Nabil",
+            },
+
+            url: "https://www.youtube.com/watch?v=-Ejq674xbSA",
+
+            type: "youtube",
+          },
+          {
+            title: {
+              en: "Cell organelles Part 3 - Dr Iman Nabil",
+              ar: "Cell organelles Part 3 - Dr Iman Nabil",
+            },
+
+            url: "https://www.youtube.com/watch?v=6f2xCso-1lg",
+
+            type: "youtube",
+          },
+        ],
         audio: [],
-        books: [],
+        books: [
+          {
+            title: {
+              en: "Introduction histology",
+              ar: "Introduction histology",
+            },
+
+            url: "assets/pdfs/nhb/histology/introduction-histology.pdf",
+
+            type: "pdf",
+          },
+          {
+            title: {
+              en: "Cell membrane",
+              ar: "Cell membrane",
+            },
+
+            url: "assets/pdfs/nhb/histology/cell-membrane.pdf",
+
+            type: "pdf",
+          },
+          {
+            title: {
+              en: "vesicular transport across the cell membrane",
+              ar: "vesicular transport across the cell membrane",
+            },
+
+            url: "assets/pdfs/nhb/histology/vesicular-transport across-the-cell-membrane.pdf",
+
+            type: "pdf",
+          },
+
+          {
+            title: {
+              en: "Cell organelles part 1",
+              ar: "Cell organelles part 1",
+            },
+
+            url: "assets/pdfs/nhb/histology/cell-organelles-1.pdf",
+
+            type: "pdf",
+          },
+          {
+            title: {
+              en: "Cell organelles part 2",
+              ar: "Cell organelles part 2",
+            },
+
+            url: "assets/pdfs/nhb/histology/cell-organelles-2.pdf",
+
+            type: "pdf",
+          },
+          {
+            title: {
+              en: "Cell organelles part 3",
+              ar: "Cell organelles part 3",
+            },
+
+            url: "assets/pdfs/nhb/histology/cell-organelles-3.pdf",
+
+            type: "pdf",
+          },
+        ],
       },
     ],
   },
